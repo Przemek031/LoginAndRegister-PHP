@@ -4,7 +4,7 @@
 	
 	if (isset($_POST['email']))
 	{
-		//Udana walidacja? Załóżmy, że tak!
+		
 		$wszystko_OK=true;
 		
 		//Sprawdź poprawność nickname'a
@@ -116,7 +116,7 @@
 				
 				if ($wszystko_OK==true)
 				{
-					//Hurra, wszystkie testy zaliczone, dodajemy gracza do bazy
+					
 					
 					if ($polaczenie->query("INSERT INTO uzytkownicy VALUES (NULL, '$nick', '$haslo_hash', '$email')"))
 					{
@@ -240,7 +240,7 @@
 			}
 		?>	
 		
-		<div class="g-recaptcha" data-sitekey="6Lf_EJ4UAAAAANGfB355gTTl9iIQRbTKTQV49Kfr"></div>
+		<div class="g-recaptcha" data-sitekey=""></div>
 		
 		<?php
 			if (isset($_SESSION['e_bot']))
