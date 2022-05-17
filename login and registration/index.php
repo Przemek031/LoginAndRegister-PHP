@@ -236,7 +236,7 @@ if (isset($_POST['email']))
 		?>" name="haslo2" />
 		</br>
 		<center>
-		<div class="g-recaptcha" data-sitekey="6Lf_EJ4UAAAAANGfB355gTTl9iIQRbTKTQV49Kfr"></div>
+		<div class="g-recaptcha" data-sitekey=""></div>
 		
 		<?php
 			if (isset($_SESSION['e_bot']))
